@@ -1,3 +1,11 @@
+:root {
+  --charcoal: #2a3d54;
+  --french-bristre: #7a6c5d;
+  --almond: #ddc9b4;
+  --khaki-web: #bcac9b;
+  --old-rose: #c17c74;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +13,30 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  background-color: var(--khaki-web);
+}
+
+.header {
+  background-color: var(--charcoal);
+  color: var(--almond);
+}
+
+.nav-list {
+  list-style-type: none;
+}
+
+.nav-item {
+  text-decoration: none;
+  font-size: 2vw;
+  font-weight: bold;
+  color: var(--khaki-web);
+}
+
+.nav-item:hover {
+  color: var(--khaki-web);
 }
 
 code {
