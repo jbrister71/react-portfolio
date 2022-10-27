@@ -4,7 +4,10 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Nav from '../Nav';
 
-function Header() {
+function Header(props) {
+
+    const { navCategories, currentCategory, setCurrentCategory } = props;
+
     return (
         <header className="header mt-3 me-5">
             <Container fluid>
@@ -13,7 +16,7 @@ function Header() {
                         <h1>Jacob Brister</h1>
                     </Col>
                     <Col lg={10}>
-                        <Nav></Nav>
+                        <Nav navCategories={navCategories} currentCategory={currentCategory} setCurrentCategory={setCurrentCategory}></Nav>
                     </Col>
                 </Row>
             </Container>
