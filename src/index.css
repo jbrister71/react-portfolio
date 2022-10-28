@@ -55,6 +55,18 @@ code {
   font-size: 3vw;
 }
 
+.form-div {
+  text-align: left;
+}
+
+.text-input {
+  width: 25%;
+}
+
+.message-text {
+  width: 50%;
+}
+
 .footer {
   background-color: var(--charcoal);
 }
