@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       {currentCategory === navCategories[1] ? <h1>Porfolio</h1> : <></>}
       {currentCategory === navCategories[2] ? <h1>Contact</h1> : <></>}
       {currentCategory === navCategories[3] ? <h1>Resume</h1> : <></>}
+      <Footer></Footer>
     </div>
   );
 }

@@ -48,3 +48,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.footer {
+  background-color: var(--charcoal);
+}
+
+.icon {
+  font-size: 2vw;
+  color: var(--almond);
+}
+
+.icon:hover {
+  cursor: pointer;
+  color: var(--old-rose);
+}
