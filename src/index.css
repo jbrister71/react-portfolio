@@ -67,6 +67,18 @@ code {
   width: 50%;
 }
 
+.error-message {
+  font-size: 1.3vw;
+}
+
+.submit-btn {
+  color: var(--almond);
+  background-color: var(--charcoal);
+  border: 0;
+  height: 3vw;
+  width: 5vw;
+}
+
 .footer {
   background-color: var(--charcoal);
 }
