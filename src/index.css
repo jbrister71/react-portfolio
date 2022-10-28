@@ -1,13 +1,13 @@
 :root {
-  --charcoal: #2a3d54;
+  --charcoal: #11151c;
   --french-bristre: #7a6c5d;
   --almond: #ddc9b4;
-  --khaki-web: #bcac9b;
+  --silver-sand: #c0c5c1;
   --old-rose: #c17c74;
 }
 
 html {
-  background-color: var(--khaki-web);
+  background-color: var(--silver-sand);
 }
 
 body {
@@ -20,7 +20,7 @@ body {
 }
 
 .App {
-  background-color: var(--khaki-web);
+  background-color: var(--silver-sand);
 }
 
 .header {
@@ -36,7 +36,7 @@ body {
   text-decoration: none;
   font-size: 2vw;
   font-weight: bold;
-  color: var(--old-rose);
+  color: var(--almond);
 }
 
 .nav-item:hover {
@@ -60,5 +60,5 @@ code {
 
 .icon:hover {
   cursor: pointer;
-  color: var(--old-rose);
+  color: var(--french-bristre);
 }
