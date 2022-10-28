@@ -9,13 +9,13 @@ function Footer() {
             <Container>
                 <Row>
                     <Col>
-                        <i className='icon bi bi-github' alt='github'></i>
+                        <a href='https://github.com/jbrister71'><i className='icon bi bi-github' alt='github'></i></a>
                     </Col>
                     <Col>
-                        <i className='icon bi bi-linkedin' alt='linkedin' height={50}></i>
+                        <a href='https://www.linkedin.com/in/jacob-brister-337761240/'><i className='icon bi bi-linkedin' alt='linkedin' height={50}></i></a>
                     </Col>
                     <Col>
-                        <i className='icon bi bi-stack' height={50}></i>
+                        <a href='https://stackoverflow.com/users/19236604/audio'><i className='icon bi bi-stack' height={50}></i></a>
                     </Col>
                 </Row>
             </Container>
