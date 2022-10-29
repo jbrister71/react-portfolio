@@ -11,22 +11,22 @@ function Nav(props) {
         <ul className='nav-list mt-3'>
             <Container>
                 <Row>
-                    <Col>
+                    <Col xs={12} lg={3}>
                         <li>
                             <span className='nav-item' onClick={() => setCurrentCategory(navCategories[0])}>About Me</span>
                         </li>
                     </Col>
-                    <Col>
+                    <Col xs={12} lg={3}>
                         <li>
                             <span className='nav-item' onClick={() => setCurrentCategory(navCategories[1])}>Porfolio</span>
                         </li>
                     </Col>
-                    <Col>
+                    <Col xs={12} lg={3}>
                         <li>
                             <span className='nav-item' onClick={() => setCurrentCategory(navCategories[2])}>Contact</span>
                         </li>
                     </Col>
-                    <Col>
+                    <Col xs={12} lg={3}>
                         <li>
                             <span className='nav-item' onClick={() => setCurrentCategory(navCategories[3])}>Resume</span>
                         </li>

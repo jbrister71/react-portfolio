@@ -12,10 +12,10 @@ function Header(props) {
         <header className="header mt-3 me-5">
             <Container fluid>
                 <Row>
-                    <Col lg={2} className="mt-3">
+                    <Col xs={12} lg={2} className="mt-3">
                         <h1>Jacob Brister</h1>
                     </Col>
-                    <Col lg={10}>
+                    <Col xs={12} lg={10}>
                         <Nav navCategories={navCategories} currentCategory={currentCategory} setCurrentCategory={setCurrentCategory}></Nav>
                     </Col>
                 </Row>
