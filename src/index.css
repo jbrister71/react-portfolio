@@ -79,6 +79,24 @@ code {
   width: 5vw;
 }
 
+.left-align {
+  text-align: left;
+}
+
+.resume-text {
+  text-align: left;
+  font-size: 1.2vw;
+}
+
+.resume-link {
+  text-decoration: none;
+  color: #11151c;
+}
+
+.resume-link:hover {
+  color: var(--french-bristre);
+}
+
 .footer {
   background-color: var(--charcoal);
 }
