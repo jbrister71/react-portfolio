@@ -125,3 +125,22 @@ code {
   cursor: pointer;
   color: var(--french-bristre);
 }
+
+@media screen and (max-width: 768px) {
+  .nav-item {
+    font-size: 5vw;
+  }
+
+  .about-img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .about-text {
+    margin-bottom: 10vw;
+  }
+
+  .section-name {
+    font-size: 10vw;
+  }
+}
