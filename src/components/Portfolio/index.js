@@ -65,7 +65,7 @@ function Portfolio() {
                         <Project project={projects[3]}></Project>
                     </Col>
                 </Row>
-                <Row className='mt-3 mb-5'>
+                <Row className='mt-3 mb-5 pb-5'>
                     <Col xs={12} lg={6}>
                         <Project project={projects[4]}></Project>
                     </Col>
