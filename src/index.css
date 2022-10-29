@@ -152,6 +152,10 @@ code {
     width: 65%;
   }
 
+  .error-message {
+    font-size: 4vw;
+  }
+
   .submit-btn {
     width: 20vw;
     height: 10vw;
@@ -168,5 +172,9 @@ code {
 
   .section-name {
     font-size: 10vw;
+  }
+
+  .footer-icon {
+    font-size: 5vw;
   }
 }
