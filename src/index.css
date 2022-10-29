@@ -55,6 +55,10 @@ code {
   font-size: 3vw;
 }
 
+.portfolio-img:hover {
+  opacity: 75%;
+}
+
 .form-div {
   text-align: left;
 }
@@ -103,10 +107,21 @@ code {
 
 .icon {
   font-size: 2vw;
+}
+
+.portfolio-icon {
+  color: var(--charcoal);
+}
+
+.portfolio-icon:hover {
+  color: var(--french-bristre);
+}
+
+.footer-icon {
   color: var(--almond);
 }
 
-.icon:hover {
+.footer-icon:hover {
   cursor: pointer;
   color: var(--french-bristre);
 }
