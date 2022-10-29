@@ -50,26 +50,26 @@ function Portfolio() {
             <h2 className='mt-4 section-name'>Portfolio</h2>
             <Container className='mt-5'>
                 <Row>
-                    <Col>
+                    <Col xs={12} lg={6}>
                         <Project project={projects[0]}></Project>
                     </Col>
-                    <Col>
+                    <Col xs={12} lg={6}>
                         <Project project={projects[1]}></Project>
                     </Col>
                 </Row>
                 <Row className='mt-3'>
-                    <Col>
+                    <Col xs={12} lg={6}>
                         <Project project={projects[2]}></Project>
                     </Col>
-                    <Col>
+                    <Col xs={12} lg={6}>
                         <Project project={projects[3]}></Project>
                     </Col>
                 </Row>
                 <Row className='mt-3 mb-5'>
-                    <Col>
+                    <Col xs={12} lg={6}>
                         <Project project={projects[4]}></Project>
                     </Col>
-                    <Col>
+                    <Col xs={12} lg={6}>
                         <Project project={projects[5]}></Project>
                     </Col>
                 </Row>

@@ -140,6 +140,32 @@ code {
     margin-bottom: 10vw;
   }
 
+  .portfolio-icon {
+    font-size: 5vw;
+  }
+
+  .text-input {
+    width: 65%;
+  }
+
+  .message-text {
+    width: 65%;
+  }
+
+  .submit-btn {
+    width: 20vw;
+    height: 10vw;
+  }
+
+  .portfolio-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .resume-text {
+    font-size: 5vw;
+  }
+
   .section-name {
     font-size: 10vw;
   }
