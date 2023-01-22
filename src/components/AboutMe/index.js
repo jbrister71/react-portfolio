@@ -11,14 +11,15 @@ function AboutMe() {
                 <Container>
                     <Row>
                         <Col xs={12} lg={6}>
-                            <img className='about-img' src='placeholder-image.png' alt='placeholder-img' height={360} width={640}></img>
+                            <img className='about-img' src='headshot3.jpg' alt='placeholder-img' height={402} width={302}></img>
                         </Col>
                         <Col xs={12} lg={6}>
                             <p className='about-text ps-5 pe-5'>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            Full-stack web developer with an interest in software development.
+                            Taught software development at Houston Community College and Valencia College.
+                            Earned a certificate in full-stack web development at University of Central Florida coding boot camp.
+                            Passionate about computer science and always seeking to learn new things.
+                            A fast learner, with strengths in problem solving and adapting to new paradigms.
                             </p>
                         </Col>
                     </Row>
