@@ -1,7 +1,8 @@
 # Jacob's Portfolio - React
 ## Description
-Portfolio of my work using React.
+Portfolio of my work using React.  
 Uses React and react-bootstrap to display information.
+![Screenshot of application](./public/screenshot.png)
 
 ## Usage
 - Follow [this link](https://jbrister71.github.io/react-portfolio/) to the application page.
