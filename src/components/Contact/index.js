@@ -40,6 +40,9 @@ function Contact() {
     return (
         <div>
             <h2 className='mt-4 section-name'>Contact</h2>
+            <div id='email-section' className='d-flex flex-column email-div ms-5 ps-5 mt-5'>
+                Email: <a href='jacobbrister71@gmail.com'>jacobbrister71@gmail.com</a>
+            </div>
             <form id='contact-form' onSubmit={handleSubmit}>
                 <div className='d-flex flex-column form-div mt-5 ms-5 ps-5'>
                     <label htmlFor='name'>Name: </label>

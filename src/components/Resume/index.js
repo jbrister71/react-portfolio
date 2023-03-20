@@ -5,7 +5,7 @@ function Resume() {
         <div>
             <h2 className='mt-4 section-name'>Resume</h2>
 
-            <p className='resume-text ms-5 ps-5 mt-3'>Click <a href='#' className='resume-link'>here</a> to download my resume.</p>
+            <p className='resume-text ms-5 ps-5 mt-3'>Click <a href='https://docs.google.com/document/d/1n06grkl3FZX1rvD-pclZlhyEED4uCHi_jIqqeO1lWEg/edit?usp=sharing' className='resume-link'>here</a> to download my resume.</p>
 
             <h3 className='left-align ms-5 ps-5 mt-3'>Front-end Proficiencies</h3>
 
