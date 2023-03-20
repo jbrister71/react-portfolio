@@ -59,6 +59,10 @@ code {
   opacity: 75%;
 }
 
+.email-div {
+  text-align: left;
+}
+
 .form-div {
   text-align: left;
 }
