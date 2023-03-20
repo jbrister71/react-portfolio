@@ -18,7 +18,7 @@ function Nav(props) {
                     </Col>
                     <Col xs={12} lg={3}>
                         <li>
-                            <span className='nav-item' onClick={() => setCurrentCategory(navCategories[1])}>Porfolio</span>
+                            <span className='nav-item' onClick={() => setCurrentCategory(navCategories[1])}>Portfolio</span>
                         </li>
                     </Col>
                     <Col xs={12} lg={3}>
